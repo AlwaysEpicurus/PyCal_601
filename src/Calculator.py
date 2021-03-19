@@ -5,3 +5,4 @@ class Calculator:
         x = 2 + 2
         self.result = x
         pass
+
