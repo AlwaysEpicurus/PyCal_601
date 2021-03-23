@@ -1,6 +1,3 @@
-from CSVReader import CsvReader
-
-
 def addition(a, b):
     a = int(a)
     b = int(b)
@@ -27,15 +24,18 @@ def division(a, b):
     c = b / a
     return c
 
+
 def square(a):
     a = int(a)
     c = a ** 2
     return c
 
+
 def squareroot(a):
     a = int(a)
     c = a ** .5
     return c
+
 
 class Calculator:
     result = 0
