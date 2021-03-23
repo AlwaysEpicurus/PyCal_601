@@ -1,4 +1,5 @@
 import unittest
+
 from Calculator import Calculator
 
 
@@ -20,6 +21,10 @@ class MyTestCase(unittest.TestCase):
     def test_subtraction_method_calculator(self):
         self.assertEqual(self.calculator.subtract(2, 2), 0)
         self.assertEqual(self.calculator.result, 0)
+
+    def test_multipication_method_calculator(self):
+        self.assertEqual(self.calculator.multiplication(2, 2), 4)
+        self.assertEqual(self.calculator.result, 4)
 
 
 if __name__ == '__main__':
