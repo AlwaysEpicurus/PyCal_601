@@ -27,12 +27,15 @@ def division(a, b):
     c = b / a
     return c
 
-
 def square(a):
     a = int(a)
     c = a ** 2
     return c
 
+def squareroot(a):
+    a = int(a)
+    c = a ** .5
+    return c
 
 class Calculator:
     result = 0
@@ -58,4 +61,8 @@ class Calculator:
 
     def square(self, a):
         self.result = square(a)
+        return self.result
+
+    def squareroot(self, a):
+        self.result = squareroot(a)
         return self.result
